@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Complete checkout with valid synthetic form data and a card number containing 16 digits grouped with spaces (4242 4242 4242 4242); confirm the card field passes validation and checkout proceeds to order confirmation.</description>
+   <name>Checkout accepts a 16 digit card number with spaces</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;Manual Session&quot;, &quot;assignee&quot;: &quot;bhavyansh.ameta@katalon.com&quot;, &quot;linkedTestCaseIds&quot;: [20809809]}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>07838c99-0d6d-432b-a900-3a1a68b62619</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>151cf84c-9547-4f00-8e94-9c1203253a0a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c019493-285e-4958-ba7c-fc0c53e61a4a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c083c66f-df05-456e-810c-8f64ffd971ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62a0fb49-3050-416a-9e7f-f70cb5b11d99</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>273eda29-1ab6-4e12-a281-5d69d9b3e243</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13089780-8327-461e-83bb-476010c17ebe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f40ea74-2df8-43af-b126-782e3b544ad3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04622add-5440-40d0-b32b-c13d41ebdb2f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b94ca8a-78a9-4c49-9aca-170c7e2d572c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b03efad-0080-4f80-8ee3-1be1d71de7a7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bb1aeb1d-6581-4e03-8228-bdabc4ee1980</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'product-assam-morning'</defaultValue>
+      <description>Step 4: Click on button addTeaToCart (addAssamMorningToCart) - (Dynamic locator variable)</description>
+      <id>7c019493-285e-4958-ba7c-fc0c53e61a4a</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_DataTestid</name>
+   </variable>
+   <variable>
+      <defaultValue>'product-darjeeling-first-flush'</defaultValue>
+      <description>Step 5: Click on button addTeaToCart (addDarjeelingFirstFlushToCart) - (Dynamic locator variable)</description>
+      <id>c083c66f-df05-456e-810c-8f64ffd971ab</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_DataTestid_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-assam-morning'</defaultValue>
+      <description>Step 4: Click on button addTeaToCart (addAssamMorningToCart) - (Dynamic locator variable)</description>
+      <id>62a0fb49-3050-416a-9e7f-f70cb5b11d99</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-darjeeling-first-flush'</defaultValue>
+      <description>Step 5: Click on button addTeaToCart (addDarjeelingFirstFlushToCart) - (Dynamic locator variable)</description>
+      <id>273eda29-1ab6-4e12-a281-5d69d9b3e243</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 18: Enter input value in input cardNumber - (Input data variable)</description>
+      <id>13089780-8327-461e-83bb-476010c17ebe</id>
+      <masked>false</masked>
+      <name>input_cardNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Demo City'</defaultValue>
+      <description>Step 14: Enter input value in input city - (Input data variable)</description>
+      <id>3f40ea74-2df8-43af-b126-782e3b544ad3</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'{{email}}'</defaultValue>
+      <description>Step 10: Enter input value in input email - (Input data variable)</description>
+      <id>04622add-5440-40d0-b32b-c13d41ebdb2f</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'{{name}} ameta'</defaultValue>
+      <description>Step 20: Enter input value in input fullName - (Input data variable)</description>
+      <id>2b94ca8a-78a9-4c49-9aca-170c7e2d572c</id>
+      <masked>false</masked>
+      <name>input_fullName</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description>Step 16: Enter input value in input pinCode - (Input data variable)</description>
+      <id>1b03efad-0080-4f80-8ee3-1be1d71de7a7</id>
+      <masked>false</masked>
+      <name>input_pinCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'123 Demo Street'</defaultValue>
+      <description>Step 12: Enter input value in input streetAddress - (Input data variable)</description>
+      <id>bb1aeb1d-6581-4e03-8228-bdabc4ee1980</id>
+      <masked>false</masked>
+      <name>input_streetAddress</name>
+   </variable>
+</TestCaseEntity>
