@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add teas to the cart, open checkout, and review the checkout page.</description>
+   <name>TC2-Open checkout for teas in the cart</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>97be48d8-5d71-4d13-8a97-1c5734c4e9bf</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>866e7535-8627-4c90-a65f-01505b2ac28f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09db803a-b61f-4c13-a802-08a38231d086</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8233ed6a-d72e-4424-b04d-d5caef5c91dd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71745443-f09b-44e5-8abf-76073937f141</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c8c8b5e-af78-43ee-99c2-4b6be46599ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7eba688-7318-4e2f-862c-79dccf4483e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e449e2d-0cd2-4700-909d-6f1344425c6a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'product-assam-morning'</defaultValue>
+      <description>Step 3: Click on button addToCart (addToCartAssamMorning) - (Dynamic locator variable)</description>
+      <id>09db803a-b61f-4c13-a802-08a38231d086</id>
+      <masked>false</masked>
+      <name>button_addToCart_DataTestid</name>
+   </variable>
+   <variable>
+      <defaultValue>'product-darjeeling-first-flush'</defaultValue>
+      <description>Step 4: Click on button addToCart (addToCartDarjeelingFirstFlush) - (Dynamic locator variable)</description>
+      <id>8233ed6a-d72e-4424-b04d-d5caef5c91dd</id>
+      <masked>false</masked>
+      <name>button_addToCart_DataTestid_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-assam-morning'</defaultValue>
+      <description>Step 3: Click on button addToCart (addToCartAssamMorning) - (Dynamic locator variable)</description>
+      <id>71745443-f09b-44e5-8abf-76073937f141</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-darjeeling-first-flush'</defaultValue>
+      <description>Step 4: Click on button addToCart (addToCartDarjeelingFirstFlush) - (Dynamic locator variable)</description>
+      <id>0c8c8b5e-af78-43ee-99c2-4b6be46599ad</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cart2'</defaultValue>
+      <description>Step 5: Click on link cart (cart2) -> Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>e7eba688-7318-4e2f-862c-79dccf4483e5</id>
+      <masked>false</masked>
+      <name>link_cart_InternalRoleLinkName</name>
+   </variable>
+   <variable>
+      <defaultValue>'#nav-cart'</defaultValue>
+      <description>Step 5: Click on link cart (cart2) -> Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>6e449e2d-0cd2-4700-909d-6f1344425c6a</id>
+      <masked>false</masked>
+      <name>link_cart_css_value</name>
+   </variable>
+</TestCaseEntity>
