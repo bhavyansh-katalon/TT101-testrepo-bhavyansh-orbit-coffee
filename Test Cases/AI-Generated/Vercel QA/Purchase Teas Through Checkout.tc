@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify a shopper can browse all teas, add selected products to the cart, and complete checkout using authorized test payment details.</description>
+   <name>Purchase Teas Through Checkout</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;Manual Session&quot;, &quot;assignee&quot;: &quot;bhavyansh.ameta@katalon.com&quot;, &quot;linkedTestCaseIds&quot;: [20807525]}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>5c925fbf-84e0-4553-ad05-0c9e1ffcb6b7</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db9c1db3-4299-4869-ab42-03f4d340c321</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de646b64-a574-4b56-8777-061db0c98877</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a6a68ed5-89ee-4d0b-8b28-5329b6064ef0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>766f9718-e11d-4bbd-a7cb-e5d470525a59</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3aa9488-1f4b-43ca-8066-ca66fe966085</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f5445fae-5a90-4ad4-a88c-a7d2a4c05048</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8289674d-9cfd-4fba-9e8c-208cd7150eff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>764ca4ce-b200-4233-a7cc-0679e2958095</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0d7e866-2562-40a8-b9fe-cca501c6265e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>edfcb054-5e2e-4c56-8203-f8bc1ecebb0a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e149a4d0-3a7a-4a39-a3aa-8fae9a3c2445</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2cdb4abd-e647-4917-9fba-d145bb042932</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>121271ff-9cff-476e-97ef-b578b6f6202e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b90c4a9b-af2d-4b11-88b2-252c10bafaf4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d7856c7-56c1-47e3-abe3-1bbd7b78476d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c1165c6-b699-47b3-8da8-fb52757e33c4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc88c77d-8800-4288-91f3-5ed524396386</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'product-darjeeling-first-flush'</defaultValue>
+      <description>Step 3: Click on button addToCart (addToCartDarjeelingFirstFlush) - (Dynamic locator variable)</description>
+      <id>de646b64-a574-4b56-8777-061db0c98877</id>
+      <masked>false</masked>
+      <name>button_addToCart_DataTestid</name>
+   </variable>
+   <variable>
+      <defaultValue>'product-sencha-green'</defaultValue>
+      <description>Step 4: Click on button addToCart (addToCartSenchaGreen) - (Dynamic locator variable)</description>
+      <id>a6a68ed5-89ee-4d0b-8b28-5329b6064ef0</id>
+      <masked>false</masked>
+      <name>button_addToCart_DataTestid_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'product-jasmine-pearls'</defaultValue>
+      <description>Step 5: Click on button addToCart (addToCart) - (Dynamic locator variable)</description>
+      <id>766f9718-e11d-4bbd-a7cb-e5d470525a59</id>
+      <masked>false</masked>
+      <name>button_addToCart_DataTestid_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'product-assam-morning'</defaultValue>
+      <description>Step 6: Click on button addToCart (addToCartAssamMorning) - (Dynamic locator variable)</description>
+      <id>a3aa9488-1f4b-43ca-8066-ca66fe966085</id>
+      <masked>false</masked>
+      <name>button_addToCart_DataTestid_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-darjeeling-first-flush'</defaultValue>
+      <description>Step 3: Click on button addToCart (addToCartDarjeelingFirstFlush) - (Dynamic locator variable)</description>
+      <id>f5445fae-5a90-4ad4-a88c-a7d2a4c05048</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-sencha-green'</defaultValue>
+      <description>Step 4: Click on button addToCart (addToCartSenchaGreen) - (Dynamic locator variable)</description>
+      <id>8289674d-9cfd-4fba-9e8c-208cd7150eff</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-jasmine-pearls'</defaultValue>
+      <description>Step 5: Click on button addToCart (addToCart) - (Dynamic locator variable)</description>
+      <id>764ca4ce-b200-4233-a7cc-0679e2958095</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-assam-morning'</defaultValue>
+      <description>Step 6: Click on button addToCart (addToCartAssamMorning) - (Dynamic locator variable)</description>
+      <id>a0d7e866-2562-40a8-b9fe-cca501c6265e</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value_3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 16: Enter input value in input cardNumber - (Input data variable)</description>
+      <id>edfcb054-5e2e-4c56-8203-f8bc1ecebb0a</id>
+      <masked>false</masked>
+      <name>input_cardNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'udaipur'</defaultValue>
+      <description>Step 12: Enter input value in input city - (Input data variable)</description>
+      <id>e149a4d0-3a7a-4a39-a3aa-8fae9a3c2445</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'{{name}} {{name}}'</defaultValue>
+      <description>Step 10: Enter input value in input fullName - (Input data variable)</description>
+      <id>2cdb4abd-e647-4917-9fba-d145bb042932</id>
+      <masked>false</masked>
+      <name>input_fullName</name>
+   </variable>
+   <variable>
+      <defaultValue>'313001'</defaultValue>
+      <description>Step 13: Enter input value in input pinCode - (Input data variable)</description>
+      <id>121271ff-9cff-476e-97ef-b578b6f6202e</id>
+      <masked>false</masked>
+      <name>input_pinCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'313001'</defaultValue>
+      <description>Step 14: Enter input value in input pinCode - (Input data variable)</description>
+      <id>b90c4a9b-af2d-4b11-88b2-252c10bafaf4</id>
+      <masked>false</masked>
+      <name>input_pinCode_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'udaipur'</defaultValue>
+      <description>Step 11: Enter input value in input streetAddress - (Input data variable)</description>
+      <id>5d7856c7-56c1-47e3-abe3-1bbd7b78476d</id>
+      <masked>false</masked>
+      <name>input_streetAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cart4'</defaultValue>
+      <description>Step 7: Click on link cartFour -> Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>8c1165c6-b699-47b3-8da8-fb52757e33c4</id>
+      <masked>false</masked>
+      <name>link_cart_InternalRoleLinkName</name>
+   </variable>
+   <variable>
+      <defaultValue>'#nav-cart'</defaultValue>
+      <description>Step 7: Click on link cartFour -> Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>dc88c77d-8800-4288-91f3-5ed524396386</id>
+      <masked>false</masked>
+      <name>link_cart_css_value</name>
+   </variable>
+</TestCaseEntity>
