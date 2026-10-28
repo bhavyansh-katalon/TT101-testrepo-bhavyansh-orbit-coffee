@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>From checkout, choose Log in, enter a valid email (shopper@example.com) and a demo password of at least six characters ([REDACTED_CREDENTIAL]); submit and confirm checkout reopens with the email prefilled and the signed-in name displayed in navigation.</description>
+   <name>Valid demo login returns to the requested checkout page</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;Manual Session&quot;, &quot;assignee&quot;: &quot;bhavyansh.ameta@katalon.com&quot;, &quot;linkedTestCaseIds&quot;: [20809802]}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>c8480664-ffd1-4db4-bb07-442bf6e5ad72</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>80c84a69-3b2b-4d7f-85b0-0fdfe4745a34</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cdd4e0a4-f9f7-43d3-afd4-ac4b14aabf4d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ced8b9f-7c03-4bf0-8020-ec06bc0395d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>886f4120-f3fd-4c12-9de0-debfae2518a6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50ab338d-02e9-456f-8420-d3175a873c26</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1618ba1d-cb44-454f-b183-be7b3fa4b743</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a9a307f-3700-4381-ace0-b66e2f028e8a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4921ba3-5a93-475b-b067-2d325939b9d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e317d3be-da87-496d-bfae-7a472223ebe7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'product-darjeeling-first-flush'</defaultValue>
+      <description>Step 4: Click on button addToCart (addToCartDarjeelingFirstFlush) - (Dynamic locator variable)</description>
+      <id>cdd4e0a4-f9f7-43d3-afd4-ac4b14aabf4d</id>
+      <masked>false</masked>
+      <name>button_addToCart_DataTestid</name>
+   </variable>
+   <variable>
+      <defaultValue>'product-sencha-green'</defaultValue>
+      <description>Step 5: Click on button addToCart (addToCartSenchaGreen) - (Dynamic locator variable)</description>
+      <id>5ced8b9f-7c03-4bf0-8020-ec06bc0395d0</id>
+      <masked>false</masked>
+      <name>button_addToCart_DataTestid_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-darjeeling-first-flush'</defaultValue>
+      <description>Step 4: Click on button addToCart (addToCartDarjeelingFirstFlush) - (Dynamic locator variable)</description>
+      <id>886f4120-f3fd-4c12-9de0-debfae2518a6</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-sencha-green'</defaultValue>
+      <description>Step 5: Click on button addToCart (addToCartSenchaGreen) - (Dynamic locator variable)</description>
+      <id>50ab338d-02e9-456f-8420-d3175a873c26</id>
+      <masked>false</masked>
+      <name>button_addToCart_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cart2'</defaultValue>
+      <description>Step 6: Click on link cartTwo -> Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>1618ba1d-cb44-454f-b183-be7b3fa4b743</id>
+      <masked>false</masked>
+      <name>link_cart_InternalRoleLinkName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cart2'</defaultValue>
+      <description>Step 11: Click on link cartTwo -> Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>9a9a307f-3700-4381-ace0-b66e2f028e8a</id>
+      <masked>false</masked>
+      <name>link_cart_InternalRoleLinkName_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'#nav-cart'</defaultValue>
+      <description>Step 6: Click on link cartTwo -> Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>f4921ba3-5a93-475b-b067-2d325939b9d8</id>
+      <masked>false</masked>
+      <name>link_cart_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'#nav-cart'</defaultValue>
+      <description>Step 11: Click on link cartTwo -> Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>e317d3be-da87-496d-bfae-7a472223ebe7</id>
+      <masked>false</masked>
+      <name>link_cart_css_value_1</name>
+   </variable>
+</TestCaseEntity>
