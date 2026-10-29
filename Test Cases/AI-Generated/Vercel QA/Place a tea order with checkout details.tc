@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add tea to the cart, enter checkout details, and place the order.</description>
+   <name>Place a tea order with checkout details</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;Manual Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>a88f5f72-ed8a-4a59-b8a6-4fa08c28fc1f</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bf1c4db2-30b5-48c0-8eab-f57890ac5090</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>329cc178-1375-456a-9ea3-5cb48259101b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18f87b5d-c4e7-4996-bb21-048693a6d8dc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>abbcc7d0-66a7-4b26-bf6e-da31d4d731fd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d4506008-ea33-43b1-8aa9-7fcd27faaf37</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4cdb0970-d0f1-4a3f-a6dd-1218e890f5e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66e4f067-9b51-4285-99bc-eed230deebeb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd894833-51c9-43e1-be54-caa0228e6580</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a6dab33f-b05f-456b-8b36-e12a3456f0cf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>052c2870-1da1-474a-a13a-33e66a87fa26</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1c28db4c-6afe-4361-bfd1-9463b0d02558</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1013b1df-c27e-474e-aa61-4fbc83084adb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3aa2bb21-f245-4ee3-a686-116717bb698a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5ed7e9bc-bc83-49a8-937a-f187e4046d84</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b632aa74-febe-4a1b-b0f4-f9f85ffa52f2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'product-assam-morning'</defaultValue>
+      <description>Step 2: Click on button addTeaToCart (addAssamMorningToCart) - (Dynamic locator variable)</description>
+      <id>329cc178-1375-456a-9ea3-5cb48259101b</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_DataTestid</name>
+   </variable>
+   <variable>
+      <defaultValue>'product-darjeeling-first-flush'</defaultValue>
+      <description>Step 3: Click on button addTeaToCart (addDarjeelingFirstFlushToCart) - (Dynamic locator variable)</description>
+      <id>18f87b5d-c4e7-4996-bb21-048693a6d8dc</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_DataTestid_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'product-sencha-green'</defaultValue>
+      <description>Step 4: Click on button addTeaToCart (addSenchaGreenToCart) - (Dynamic locator variable)</description>
+      <id>abbcc7d0-66a7-4b26-bf6e-da31d4d731fd</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_DataTestid_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'product-jasmine-pearls'</defaultValue>
+      <description>Step 5: Click on button addTeaToCart (addJasminePearlsToCart) - (Dynamic locator variable)</description>
+      <id>d4506008-ea33-43b1-8aa9-7fcd27faaf37</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_DataTestid_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-assam-morning'</defaultValue>
+      <description>Step 2: Click on button addTeaToCart (addAssamMorningToCart) - (Dynamic locator variable)</description>
+      <id>4cdb0970-d0f1-4a3f-a6dd-1218e890f5e8</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-darjeeling-first-flush'</defaultValue>
+      <description>Step 3: Click on button addTeaToCart (addDarjeelingFirstFlushToCart) - (Dynamic locator variable)</description>
+      <id>66e4f067-9b51-4285-99bc-eed230deebeb</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-sencha-green'</defaultValue>
+      <description>Step 4: Click on button addTeaToCart (addSenchaGreenToCart) - (Dynamic locator variable)</description>
+      <id>bd894833-51c9-43e1-be54-caa0228e6580</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'#add-jasmine-pearls'</defaultValue>
+      <description>Step 5: Click on button addTeaToCart (addJasminePearlsToCart) - (Dynamic locator variable)</description>
+      <id>a6dab33f-b05f-456b-8b36-e12a3456f0cf</id>
+      <masked>false</masked>
+      <name>button_addTeaToCart_css_value_3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 16: Enter input value in input cardNumber - (Input data variable)</description>
+      <id>052c2870-1da1-474a-a13a-33e66a87fa26</id>
+      <masked>false</masked>
+      <name>input_cardNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'udaipur'</defaultValue>
+      <description>Step 11: Enter input value in input city - (Input data variable)</description>
+      <id>1c28db4c-6afe-4361-bfd1-9463b0d02558</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'{{name}} {{name}}'</defaultValue>
+      <description>Step 9: Enter input value in input fullName - (Input data variable)</description>
+      <id>1013b1df-c27e-474e-aa61-4fbc83084adb</id>
+      <masked>false</masked>
+      <name>input_fullName</name>
+   </variable>
+   <variable>
+      <defaultValue>'313001'</defaultValue>
+      <description>Step 12: Enter input value in input pinCode - (Input data variable)</description>
+      <id>3aa2bb21-f245-4ee3-a686-116717bb698a</id>
+      <masked>false</masked>
+      <name>input_pinCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'313001'</defaultValue>
+      <description>Step 13: Enter input value in input pinCode - (Input data variable)</description>
+      <id>5ed7e9bc-bc83-49a8-937a-f187e4046d84</id>
+      <masked>false</masked>
+      <name>input_pinCode_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'udaipur'</defaultValue>
+      <description>Step 10: Enter input value in input streetAddress - (Input data variable)</description>
+      <id>b632aa74-febe-4a1b-b0f4-f9f85ffa52f2</id>
+      <masked>false</masked>
+      <name>input_streetAddress</name>
+   </variable>
+</TestCaseEntity>
